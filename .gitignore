@@ -1,0 +1,28 @@
+# 依赖目录
+node_modules/
+target/
+.mvn/
+
+# 编译产物
+dist/
+build/
+*.class
+*.jar
+*.war
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.DS_Store
+
+# 环境配置（敏感信息）
+.env
+!.env.example
+
+# 日志
+*.log
+logs/
+
+# Docker 临时文件
+.dockerignore
